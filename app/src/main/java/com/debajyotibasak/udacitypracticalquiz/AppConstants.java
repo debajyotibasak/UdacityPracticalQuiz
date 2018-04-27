@@ -1,6 +1,7 @@
 package com.debajyotibasak.udacitypracticalquiz;
 
 public class AppConstants {
+    public static final String EMPTY = "";
     public static final String NAME = "name";
     public static final String EMAIL = "email";
     public static final String ABOUT = "about";

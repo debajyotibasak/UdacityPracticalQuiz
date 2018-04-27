@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         mFabNext.setOnClickListener(view -> {
                 insertSharedPreferences();
+                clearEditText();
                 startActivityWithTransitions(view);
         });
     }
@@ -92,5 +93,11 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferencesHelper.setSharedPreferenceString(this, AppConstants.NAME, mEdtUserName.getText().toString().trim());
         SharedPreferencesHelper.setSharedPreferenceString(this, AppConstants.EMAIL, mEdtEmail.getText().toString().trim());
         SharedPreferencesHelper.setSharedPreferenceString(this, AppConstants.ABOUT, mEdtAboutMe.getText().toString().trim());
+    }
+
+    private void clearEditText() {
+        mEdtUserName.setText(AppConstants.EMPTY);
+        mEdtEmail.setText(AppConstants.EMPTY);
+        mEdtAboutMe.setText(AppConstants.EMPTY);
     }
 }
