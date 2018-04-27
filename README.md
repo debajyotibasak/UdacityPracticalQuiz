@@ -13,3 +13,6 @@ This app was made as a part of **Practical Quiz** in the **Udacity India Scholar
 
 ## **External libraries used**
 https://github.com/hdodenhof/CircleImageView
+
+## **Inspired By**
+https://www.uplabs.com/posts/sign-up-8a4d9977-c444-4422-b556-c09753b10be3
