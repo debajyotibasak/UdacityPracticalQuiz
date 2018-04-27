@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UdacityPracticalQuiz</string>
+    <string name="txt_enter_details">Enter Details</string>
+    <string name="txt_user_name">User Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_write_about_yourself">Write about yourself</string>
+    <string name="txt_lorem_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</string>
+    <string name="txt_placeholder_email">d.basak.db@gmail.com</string>
+    <string name="txt_placeholder_text">Debajyoti Basak</string>
+    <string name="txt_demo_user">Demo User</string>
+    <string name="txt_demo_email">Demo Email</string>
+    <string name="txt_demo_description">Demo Description. Here User will fill up his/her info</string>
+</resources>
